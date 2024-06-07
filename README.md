@@ -1,5 +1,8 @@
 # 한밭대학교 컴퓨터공학과 MOBITOA팀
 
+<div align="center"><img src="NetHawkLogo.png" alt="Alt text" height="300"/></div> 
+<div align="center"><b>iOS App 'NetHawk' 로고</b></div>
+
 **팀 구성**
 - 20191728 김정훈
 - 20191773 민준혁
@@ -39,7 +42,8 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 <div align="center">
   <img src="image-2.png" alt="Alt text" height="400"/>
 </div>
-<div align="center"><b>어플리케이션 소프트웨어 아키텍쳐</b></div>
+<div align="center"><b>어플리케이션 소프트웨어 아키텍쳐</b></div> 
+<br>
 
   - ### System Requirements
     ***Update soon***
