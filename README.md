@@ -33,7 +33,13 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 
 ## System Design
   - ### System Architectures
-<img src="image-1.png" alt="Alt text" width="250" height="207" /> <img src="image-2.png" alt="Alt text" width="250"/>
+<img src="image-1.png" alt="Alt text" /> 
+<div align="center">필터 - 공유기 간 시스템 아키텍쳐</div>  
+<br>
+<div align="center">
+  <img src="image-2.png" alt="Alt text" height="400"/>
+</div>
+<div align="center">어플리케이션 소프트웨어 아키텍쳐</div>
 
   - ### System Requirements
     ***Update soon***
