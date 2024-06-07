@@ -1,0 +1,26 @@
+--뽑아낼 데이터--
+- 덤프 시작 시간 기준으로 ms 단위 계산
+- DNS조회해서 장치명 알아내지 말것
+- wan 으로 알아내고, NAT 테이블 조회해서 목적지 IP/Port 알아내기
+
+8	1	8	0
+1000	0001	1000	0000
+1	0000	0	0	1	1	000	0000
+
+
+
+
+<<DNS Response>>
+5. 데이터 영역을 ASCII로 표시
+tcpdump -i wan -n -vvv -ttttt '(udp port 53) and (udp[10:2]&0xf87f = 0x8000)'
+
+1 0000 x x x x 000 0000
+1000 0xxx x000 0000
+1111 1000 0111 1111 >> F87F
+1000 0000 0000 0000 >> 8000
+
+<<TCP/IP>>
+3-1. 게이트웨이(192.168.1.1)가 주고받은 패킷이 아닌
+3-2. mqtt broker 와 주고받은 패킷 제외한
+5. ssh 패킷을 제외한 (Port 22)
+tcpdump -i wan -n -vvv -ttttt 'tcp port not 22 and ip host (not 192.168.1.1 and not 203.230.104.207)'
