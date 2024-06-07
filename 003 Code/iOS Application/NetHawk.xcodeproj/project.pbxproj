@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F211F17A2C0F0375004F40B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F1792C0F0375004F40B4 /* AppDelegate.swift */; };
+		F211F17C2C0F0375004F40B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F17B2C0F0375004F40B4 /* SceneDelegate.swift */; };
+		F211F17E2C0F0375004F40B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F17D2C0F0375004F40B4 /* MainViewController.swift */; };
+		F211F1812C0F0375004F40B4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F211F1802C0F0375004F40B4 /* Base */; };
+		F211F1842C0F0375004F40B4 /* NetHawk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F211F1822C0F0375004F40B4 /* NetHawk.xcdatamodeld */; };
+		F211F1862C0F0377004F40B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F211F1852C0F0377004F40B4 /* Assets.xcassets */; };
+		F211F1982C0F2282004F40B4 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F1972C0F2282004F40B4 /* LogViewController.swift */; };
+		F211F19A2C0F2298004F40B4 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F1992C0F2298004F40B4 /* StatViewController.swift */; };
+		F211F19C2C0F22A5004F40B4 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F19B2C0F22A5004F40B4 /* OptionViewController.swift */; };
+		F211F19E2C0F264C004F40B4 /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F211F19D2C0F264C004F40B4 /* AccessViewController.swift */; };
+		F211F1A82C0F3B7D004F40B4 /* IntelOneMono-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A02C0F3B7D004F40B4 /* IntelOneMono-MediumItalic.otf */; };
+		F211F1A92C0F3B7D004F40B4 /* IntelOneMono-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A12C0F3B7D004F40B4 /* IntelOneMono-LightItalic.otf */; };
+		F211F1AA2C0F3B7D004F40B4 /* IntelOneMono-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A22C0F3B7D004F40B4 /* IntelOneMono-Light.otf */; };
+		F211F1AB2C0F3B7D004F40B4 /* IntelOneMono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A32C0F3B7D004F40B4 /* IntelOneMono-Bold.otf */; };
+		F211F1AC2C0F3B7D004F40B4 /* IntelOneMono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A42C0F3B7D004F40B4 /* IntelOneMono-Regular.otf */; };
+		F211F1AD2C0F3B7D004F40B4 /* IntelOneMono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A52C0F3B7D004F40B4 /* IntelOneMono-Medium.otf */; };
+		F211F1AE2C0F3B7D004F40B4 /* IntelOneMono-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A62C0F3B7D004F40B4 /* IntelOneMono-Italic.otf */; };
+		F211F1AF2C0F3B7D004F40B4 /* IntelOneMono-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F211F1A72C0F3B7D004F40B4 /* IntelOneMono-BoldItalic.otf */; };
+		F27C9D2A2C103C8200789558 /* WiFiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C9D292C103C8200789558 /* WiFiService.swift */; };
+		F28AF82C2C118C36001290CC /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AF82B2C118C36001290CC /* ConnectionViewController.swift */; };
+		F28AF8302C118F75001290CC /* NetHawkLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F28AF82F2C118F75001290CC /* NetHawkLogo.png */; };
+		F28AF8322C119023001290CC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AF8312C119023001290CC /* SplashViewController.swift */; };
+		F2AA54252C11F7E200D5C52C /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA54242C11F7E200D5C52C /* MQTTService.swift */; };
+		F2AA54272C12015400D5C52C /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA54262C12015400D5C52C /* KeyChainService.swift */; };
+		F2AA54292C12185300D5C52C /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AA54282C12185300D5C52C /* Splash.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F211F1762C0F0375004F40B4 /* NetHawk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetHawk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F211F1792C0F0375004F40B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F211F17B2C0F0375004F40B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F211F17D2C0F0375004F40B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F211F1802C0F0375004F40B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F211F1832C0F0375004F40B4 /* PackeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PackeTracker.xcdatamodel; sourceTree = "<group>"; };
+		F211F1852C0F0377004F40B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F211F18A2C0F0377004F40B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F211F1972C0F2282004F40B4 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		F211F1992C0F2298004F40B4 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
+		F211F19B2C0F22A5004F40B4 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		F211F19D2C0F264C004F40B4 /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
+		F211F1A02C0F3B7D004F40B4 /* IntelOneMono-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-MediumItalic.otf"; sourceTree = "<group>"; };
+		F211F1A12C0F3B7D004F40B4 /* IntelOneMono-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-LightItalic.otf"; sourceTree = "<group>"; };
+		F211F1A22C0F3B7D004F40B4 /* IntelOneMono-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-Light.otf"; sourceTree = "<group>"; };
+		F211F1A32C0F3B7D004F40B4 /* IntelOneMono-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-Bold.otf"; sourceTree = "<group>"; };
+		F211F1A42C0F3B7D004F40B4 /* IntelOneMono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-Regular.otf"; sourceTree = "<group>"; };
+		F211F1A52C0F3B7D004F40B4 /* IntelOneMono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-Medium.otf"; sourceTree = "<group>"; };
+		F211F1A62C0F3B7D004F40B4 /* IntelOneMono-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-Italic.otf"; sourceTree = "<group>"; };
+		F211F1A72C0F3B7D004F40B4 /* IntelOneMono-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntelOneMono-BoldItalic.otf"; sourceTree = "<group>"; };
+		F27C9D292C103C8200789558 /* WiFiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiService.swift; sourceTree = "<group>"; };
+		F28AF82B2C118C36001290CC /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		F28AF82F2C118F75001290CC /* NetHawkLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NetHawkLogo.png; sourceTree = "<group>"; };
+		F28AF8312C119023001290CC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F2AA54242C11F7E200D5C52C /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		F2AA54262C12015400D5C52C /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		F2AA54282C12185300D5C52C /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F211F1732C0F0375004F40B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F211F16D2C0F0375004F40B4 = {
+			isa = PBXGroup;
+			children = (
+				F211F1782C0F0375004F40B4 /* NetHawk */,
+				F211F1772C0F0375004F40B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F211F1772C0F0375004F40B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F211F1762C0F0375004F40B4 /* NetHawk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F211F1782C0F0375004F40B4 /* NetHawk */ = {
+			isa = PBXGroup;
+			children = (
+				F211F1962C0F12D5004F40B4 /* Supporting Files */,
+				F211F1902C0F11C9004F40B4 /* Models */,
+				F211F1912C0F11EA004F40B4 /* Views */,
+				F211F1922C0F11FE004F40B4 /* Controllers */,
+				F211F1932C0F120A004F40B4 /* Services */,
+				F211F1952C0F1252004F40B4 /* Resources */,
+			);
+			path = NetHawk;
+			sourceTree = "<group>";
+		};
+		F211F1902C0F11C9004F40B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F27C9D292C103C8200789558 /* WiFiService.swift */,
+				F2AA54242C11F7E200D5C52C /* MQTTService.swift */,
+				F2AA54262C12015400D5C52C /* KeyChainService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F211F1912C0F11EA004F40B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA54282C12185300D5C52C /* Splash.storyboard */,
+				F211F17F2C0F0375004F40B4 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F211F1922C0F11FE004F40B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28AF8312C119023001290CC /* SplashViewController.swift */,
+				F28AF82B2C118C36001290CC /* ConnectionViewController.swift */,
+				F211F17D2C0F0375004F40B4 /* MainViewController.swift */,
+				F211F1972C0F2282004F40B4 /* LogViewController.swift */,
+				F211F1992C0F2298004F40B4 /* StatViewController.swift */,
+				F211F19D2C0F264C004F40B4 /* AccessViewController.swift */,
+				F211F19B2C0F22A5004F40B4 /* OptionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F211F1932C0F120A004F40B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F211F1952C0F1252004F40B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F28AF82F2C118F75001290CC /* NetHawkLogo.png */,
+				F211F19F2C0F3B64004F40B4 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F211F1962C0F12D5004F40B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F211F1792C0F0375004F40B4 /* AppDelegate.swift */,
+				F211F17B2C0F0375004F40B4 /* SceneDelegate.swift */,
+				F211F18A2C0F0377004F40B4 /* Info.plist */,
+				F211F1852C0F0377004F40B4 /* Assets.xcassets */,
+				F211F1822C0F0375004F40B4 /* NetHawk.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F211F19F2C0F3B64004F40B4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F211F1A32C0F3B7D004F40B4 /* IntelOneMono-Bold.otf */,
+				F211F1A72C0F3B7D004F40B4 /* IntelOneMono-BoldItalic.otf */,
+				F211F1A62C0F3B7D004F40B4 /* IntelOneMono-Italic.otf */,
+				F211F1A22C0F3B7D004F40B4 /* IntelOneMono-Light.otf */,
+				F211F1A12C0F3B7D004F40B4 /* IntelOneMono-LightItalic.otf */,
+				F211F1A52C0F3B7D004F40B4 /* IntelOneMono-Medium.otf */,
+				F211F1A02C0F3B7D004F40B4 /* IntelOneMono-MediumItalic.otf */,
+				F211F1A42C0F3B7D004F40B4 /* IntelOneMono-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F211F1752C0F0375004F40B4 /* NetHawk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F211F18D2C0F0377004F40B4 /* Build configuration list for PBXNativeTarget "NetHawk" */;
+			buildPhases = (
+				F211F1722C0F0375004F40B4 /* Sources */,
+				F211F1732C0F0375004F40B4 /* Frameworks */,
+				F211F1742C0F0375004F40B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetHawk;
+			productName = PackeTracker;
+			productReference = F211F1762C0F0375004F40B4 /* NetHawk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F211F16E2C0F0375004F40B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F211F1752C0F0375004F40B4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F211F1712C0F0375004F40B4 /* Build configuration list for PBXProject "NetHawk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F211F16D2C0F0375004F40B4;
+			productRefGroup = F211F1772C0F0375004F40B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F211F1752C0F0375004F40B4 /* NetHawk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F211F1742C0F0375004F40B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F211F1AE2C0F3B7D004F40B4 /* IntelOneMono-Italic.otf in Resources */,
+				F28AF8302C118F75001290CC /* NetHawkLogo.png in Resources */,
+				F211F1862C0F0377004F40B4 /* Assets.xcassets in Resources */,
+				F211F1AA2C0F3B7D004F40B4 /* IntelOneMono-Light.otf in Resources */,
+				F211F1AF2C0F3B7D004F40B4 /* IntelOneMono-BoldItalic.otf in Resources */,
+				F211F1AD2C0F3B7D004F40B4 /* IntelOneMono-Medium.otf in Resources */,
+				F211F1812C0F0375004F40B4 /* Base in Resources */,
+				F211F1A82C0F3B7D004F40B4 /* IntelOneMono-MediumItalic.otf in Resources */,
+				F211F1AC2C0F3B7D004F40B4 /* IntelOneMono-Regular.otf in Resources */,
+				F211F1AB2C0F3B7D004F40B4 /* IntelOneMono-Bold.otf in Resources */,
+				F211F1A92C0F3B7D004F40B4 /* IntelOneMono-LightItalic.otf in Resources */,
+				F2AA54292C12185300D5C52C /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F211F1722C0F0375004F40B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F211F17E2C0F0375004F40B4 /* MainViewController.swift in Sources */,
+				F2AA54272C12015400D5C52C /* KeyChainService.swift in Sources */,
+				F28AF82C2C118C36001290CC /* ConnectionViewController.swift in Sources */,
+				F28AF8322C119023001290CC /* SplashViewController.swift in Sources */,
+				F211F1982C0F2282004F40B4 /* LogViewController.swift in Sources */,
+				F211F19E2C0F264C004F40B4 /* AccessViewController.swift in Sources */,
+				F2AA54252C11F7E200D5C52C /* MQTTService.swift in Sources */,
+				F27C9D2A2C103C8200789558 /* WiFiService.swift in Sources */,
+				F211F1842C0F0375004F40B4 /* NetHawk.xcdatamodeld in Sources */,
+				F211F17A2C0F0375004F40B4 /* AppDelegate.swift in Sources */,
+				F211F19C2C0F22A5004F40B4 /* OptionViewController.swift in Sources */,
+				F211F19A2C0F2298004F40B4 /* StatViewController.swift in Sources */,
+				F211F17C2C0F0375004F40B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F211F17F2C0F0375004F40B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F211F1802C0F0375004F40B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F211F18B2C0F0377004F40B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 항상 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 위치 권한이 필요합니다.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F211F18C2C0F0377004F40B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 항상 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 위치 권한이 필요합니다.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F211F18E2C0F0377004F40B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetHawk/NetHawk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M5VM39FM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NetHawk/Supporting Files/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 항상 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gil.NetHawk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F211F18F2C0F0377004F40B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetHawk/NetHawk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M5VM39FM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NetHawk/Supporting Files/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 항상 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱에서 Wi-Fi 정보를 가져오기 위해 위치 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gil.NetHawk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F211F1712C0F0375004F40B4 /* Build configuration list for PBXProject "NetHawk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F211F18B2C0F0377004F40B4 /* Debug */,
+				F211F18C2C0F0377004F40B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F211F18D2C0F0377004F40B4 /* Build configuration list for PBXNativeTarget "NetHawk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F211F18E2C0F0377004F40B4 /* Debug */,
+				F211F18F2C0F0377004F40B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F211F1822C0F0375004F40B4 /* NetHawk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F211F1832C0F0375004F40B4 /* PackeTracker.xcdatamodel */,
+			);
+			currentVersion = F211F1832C0F0375004F40B4 /* PackeTracker.xcdatamodel */;
+			path = NetHawk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F211F16E2C0F0375004F40B4 /* Project object */;
+}
