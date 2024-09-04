@@ -1,9 +1,11 @@
 # 한밭대학교 컴퓨터공학과 MOBITOA팀
 
 <div align="center"><img src="NetHawkLogo.png" alt="Alt text" height="300"/></div> 
-<div align="center"><b>iOS App 'NetHawk' 로고</b></div>
+<div align="center"><b>iOS App 'NetHawk' 로고</b></div>  
 
-**팀 구성**
+<div align="center"> App Detail Repo : https://github.com/MOBITOA/NetHawk?tab=readme-ov-file </div>
+
+## **팀 구성**
 - 20191728 김정훈
 - 20191773 민준혁
 - 20191726 길지훈
