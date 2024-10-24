@@ -1,0 +1,15 @@
+# Xcode
+.DS_Store
+*.xcuserdatad
+*.xccheckout
+*.xcworkspace
+xcuserdata
+profile
+DerivedData
+*.moved-aside
+IDEWorkspaceChecks.plist
+UserInterfaceState.xcuserstate
+
+# CocoaPods
+Pods/
+
