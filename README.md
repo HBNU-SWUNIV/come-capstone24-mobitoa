@@ -78,7 +78,7 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 대응이 미비하기에 `기존 대응 알고리즘과 더불어, 보다 인공지능을 활용한 기계학습 위주의 현대적인 대응책이나 대안이 필요`하다.
 
 ## 🏛️ System Design
-![Alt text](/imgs/systemArch_full.png)
+![Alt text](/imgs/systemArch_full.png) 
 <div align="center"><b>전체 시스템 아키텍쳐</b></div>  
 <br>
 
@@ -86,12 +86,12 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 
 <br>
 
-![Alt text](/imgs/packetAnalyzer.png)
+<div align="center"><img src="imgs/packetAnalyzer.png" alt="Alt text" height="300"/></div>  
 <div align="center"><b>패킷 분석 시스템 설치 환경</b></div> 
 <br>
 
 <div align="center">
-  <img src="imgs/systemArch_Jetson-OpenWrt.png" alt="Alt text" height="400"/>
+  <img src="imgs/systemArch_Jetson-OpenWrt.png" alt="Alt text" height="300"/>
 </div>
 <div align="center"><b>라우터 - 필터 시스템 상세 아키텍쳐</b></div> 
 <br>
