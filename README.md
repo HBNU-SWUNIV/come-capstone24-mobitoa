@@ -21,36 +21,23 @@
 </div>
 
 ## 🤔 Subject
+
 <div align="center">
 
-### **AI secure router of edge computing**  
-### (엣지컴퓨팅 기반의 AI 보안 라우터)
+<span style="font-size: 32px; font-weight: bold;">AI secure router of edge computing</span>  
+<br>
+<span style="font-size: 24px;">(엣지컴퓨팅 기반의 AI 보안 라우터)</span>
+
 
 </div>
 
----
 
-<div style="display: flex; justify-content: space-around;">
+| 📋 작품 개요                                                                                | 🎯 최종 목표                                                                 |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| 1. `다양한 네트워크 공격을 탐지`하고 `대응하는 보안 네트워크 환경`을 제공                  | 1. 네트워크 보안 기능 제공과 동시에 성능 최적화                             |
+| 2. 기존의 대응 알고리즘과 달리, `AI를 적용한 탐지법`을 통해 더욱 정교한 보안 솔루션을 제공 | 2. `사용자 친화적인 인터페이스 구축`으로 `보안 관리`와 `모니터링 기능` 제공 |
+| 3. `엣지 컴퓨팅`을 활용해 지연 없이 `실시간으로 패킷의 공격 여부 탐지`                     | 3. 공유기 및 필터 기기에서 직접 네트워크 공격 탐지 및 대응을 실행           |
 
-<div style="width: 45%;">
-  
-### 📋 작품 개요
-#### 1. `다양한 네트워크 공격을 탐지`하고 `대응하는 보안 네트워크 환경`을 제공
-#### 2. 기존의 대응 알고리즘과 달리, `AI를 적용한 탐지법`을 통해 더욱 정교한 보안 솔루션을 제공
-#### 3. `엣지 컴퓨팅`을 활용해 지연 없이 `실시간으로 패킷의 공격 여부 탐지`
-
-</div>
-
-<div style="width: 45%;">
-
-### 🎯 최종 목표
-#### 1. 네트워크 보안 기능 제공과 동시에 성능 최적화.
-#### 2. `사용자 친화적인 인터페이스 구축`으로 `보안 관리`와 `모니터링 기능` 제공.
-#### 3. 공유기 및 필터 기기에서 직접 네트워크 공격 탐지 및 대응을 실행.
-
-</div>
-
-</div>
 
 
 ## 📌 Project Background
@@ -114,20 +101,20 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 | **UDP-Flooding 탐지 모델** | 0.98      | 0.93   | 0.96     | 0.97     |
 
 <div align="center"><b>TCP/UDP-Flooding 탐지 모델의 검증 평가지표</b></div> 
-</br>
-</div>
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+<table>
+<tr>
+    <td align="center">
+        <img src="imgs/tcp_confusion.png" alt="TCP-Flooding Confusion Matrix" width="300"/>
+        <div><b>TCP-Flooding 탐지 모델의 Confusion Matrix</b></div>
+    </td>
+    <td align="center">
+        <img src="imgs/udp_confusion.png" alt="UDP-Flooding Confusion Matrix" width="300"/>
+        <div><b>UDP-Flooding 탐지 모델의 Confusion Matrix</b></div>
+    </td>
+</tr>
+</table>
 
-<div style="text-align: center;">
-    <img src="imgs/tcp_confusion.png" alt="TCP-Flooding Confusion Matrix" width="300"/>
-    <div><b>TCP-Flooding 탐지 모델의 Confusion Matrix</b></div>
-</div>
-
-<div style="text-align: center;">
-    <img src="imgs/udp_confusion.png" alt="UDP-Flooding Confusion Matrix" width="300"/>
-    <div><b>UDP-Flooding 탐지 모델의 Confusion Matrix</b></div>
-</div>
 
 
 
