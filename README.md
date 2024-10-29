@@ -129,6 +129,8 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
     <div><b>UDP-Flooding 탐지 모델의 Confusion Matrix</b></div>
 </div>
 
+
+
 </div>
 
 - ### Domain Phishing
@@ -148,9 +150,8 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 <div align="center"><b>Domain-Phishing 탐지 모델의 검증 평가지표  </b></div> 
 </br>
 
-<div style="text-align: center;">
-    <img src="imgs/phishing_confusion.png" alt="phshing Confusion Matrix" width="300"/>
-</div>
+<div align="center"><img src="imgs/phishing_confusion.png" alt="Alt text" height="300"/></div> 
+
 
 <div align="center"><b>Domain-Phishing  탐지 모델의 Confusion matrix</b></div> 
 
