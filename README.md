@@ -120,12 +120,12 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
 
 <div style="text-align: center;">
-    <img src="imgs/tcp_confusion.png" alt="TCP-Flooding Confusion Matrix" width="250"/>
+    <img src="imgs/tcp_confusion.png" alt="TCP-Flooding Confusion Matrix" width="300"/>
     <div><b>TCP-Flooding 탐지 모델의 Confusion Matrix</b></div>
 </div>
 
 <div style="text-align: center;">
-    <img src="imgs/udp_confusion.png" alt="UDP-Flooding Confusion Matrix" width="250"/>
+    <img src="imgs/udp_confusion.png" alt="UDP-Flooding Confusion Matrix" width="300"/>
     <div><b>UDP-Flooding 탐지 모델의 Confusion Matrix</b></div>
 </div>
 
