@@ -96,7 +96,7 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 <div align="center"><b>라우터 - 필터 시스템 상세 아키텍쳐</b></div> 
 <br>
 
-  - ### System Requirements
+  - ### System Requirements and Skills
     ***Update soon***
     
 ## 📚 Case Study
