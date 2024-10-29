@@ -24,10 +24,8 @@
 
 <div align="center">
 
-<span style="font-size: 32px; font-weight: bold;">AI secure router of edge computing</span>  
-<br>
-<span style="font-size: 24px;">(엣지컴퓨팅 기반의 AI 보안 라우터)</span>
-
+# **AI secure router of edge computing**
+### (엣지컴퓨팅 기반의 AI 보안 라우터)
 
 </div>
 
