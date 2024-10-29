@@ -25,7 +25,7 @@
 <div align="center">
 
 # **AI secure router of edge computing**
-### (엣지컴퓨팅 기반의 AI 보안 라우터)
+### 엣지컴퓨팅 기반의 AI 보안 라우터
 
 </div>
 
