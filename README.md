@@ -14,7 +14,8 @@
 
 ### [>> NetHawk for iOS App Repo <<](https://github.com/MOBITOA/NetHawk)
 
-### [1. Subject](#-subject) &nbsp; &nbsp; &nbsp; &nbsp; [2. Project Background](#-project-background) &nbsp; &nbsp; &nbsp; &nbsp; [3. System Design](#-system-design) 
+### [1. Subject](#-subject) &nbsp; &nbsp; &nbsp; &nbsp; [2. Project Background](#-project-background) &nbsp; &nbsp; &nbsp; &nbsp; [3. System Design](#-system-design)
+
 ###  [4. Case Study](#-case-study) &nbsp; &nbsp; &nbsp; &nbsp; [5. Conclusion](#-conclusion) &nbsp; &nbsp; &nbsp; &nbsp;
 ### [6. Project Outcome](#-project-outcome)  
 
