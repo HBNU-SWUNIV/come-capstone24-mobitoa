@@ -84,7 +84,7 @@ IPv4 주소의 고갈로 인해 각국에서는 IPv6 주소로의 이전을
 <br>
 
   - ### System Requirements and Skills
-    ![Alt text](image.png)
+    ![Alt text](/imgs/SystemRequirementsAndSkills.png)
     
 ## 📚 Case Study
   - ### TCP/UDP-Flooding
